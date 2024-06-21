@@ -1,0 +1,13 @@
+﻿<!-- Views/Employees/Details.cshtml -->
+@model WebApplicationMVC.Models.Employee
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h1>Employee Details</h1>
+<div>
+    <h3>@Model.Name</h3>
+    <p><strong>Position:</strong> @Model.Position</p>
+    <p><strong>Department:</strong> @Model.Department</p>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SurajWorks\\WebApplicationMVC\\WebApplicationMVC\\WebApplicationMVC.csproj": {}
+  },
+  "projects": {
+    "D:\\SurajWorks\\WebApplicationMVC\\WebApplicationMVC\\WebApplicationMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SurajWorks\\WebApplicationMVC\\WebApplicationMVC\\WebApplicationMVC.csproj",
+        "projectName": "WebApplicationMVC",
+        "projectPath": "D:\\SurajWorks\\WebApplicationMVC\\WebApplicationMVC\\WebApplicationMVC.csproj",
+        "packagesPath": "C:\\Users\\Trushna Patel.DESKTOP-KDMVD83\\.nuget\\packages\\",
+        "outputPath": "D:\\SurajWorks\\WebApplicationMVC\\WebApplicationMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trushna Patel.DESKTOP-KDMVD83\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

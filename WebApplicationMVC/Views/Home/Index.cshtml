@@ -1,0 +1,35 @@
+﻿<!-- Views/Employees/Index.cshtml -->
+@model IEnumerable<WebApplicationMVC.Models.Employee>
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h1>Employee List</h1>
+<table class="table">
+    <thead>
+        <p style="text-align:right;margin-right:20px;">
+                <a class="btn btn-outline-primary" asp-action="Add">Create New</a>
+        </p>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.Position</td>
+                <td>@employee.Department</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@employee.Id">Details</a> |
+                    <a asp-action="Add" asp-route-id="@employee.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@employee.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
